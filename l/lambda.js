@@ -24,5 +24,6 @@ exports.handler = function(event, context, callback) {
 			break;
 	}
 	event.Result = result;
-	callback(null,'Successfully executed');
+	callback(null, event);
 }
+
